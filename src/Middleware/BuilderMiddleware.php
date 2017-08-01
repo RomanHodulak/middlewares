@@ -9,7 +9,7 @@ use Psr\Http\Message\ServerRequestInterface;
 /**
  * @author Milan Felix Sulc <sulcmil@gmail.com>
  */
-class GroupBuilderMiddleware extends BaseMiddleware
+class BuilderMiddleware extends BaseMiddleware
 {
 
 	/** @var ChainBuilder */
@@ -24,7 +24,7 @@ class GroupBuilderMiddleware extends BaseMiddleware
 	}
 
 	/**
-	 * @param object $middleware
+	 * @param mixed $middleware
 	 * @return void
 	 */
 	public function add($middleware)

@@ -17,7 +17,7 @@ class ChainBuilder
 	private $middlewares = [];
 
 	/**
-	 * @param callable $middleware
+	 * @param mixed $middleware
 	 * @return void
 	 */
 	public function add($middleware)

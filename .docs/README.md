@@ -11,12 +11,12 @@ The middlewares / relay conception is a strong pattern with many benefits.
     - [Modes - nette/standalone mode](#application)
     - [Middlewares](#middlewares)
         - [AbstractRootMiddleware](#)
-        - [AutoBasePathMiddleware](#)
         - [BaseMiddleware](#)
+        
+        
+        - [AutoBasePathMiddleware](#)
         - [BasePathMiddleware](#)
-        - [ExcludeConditionMiddleware](#)
-        - [GroupBuilderMiddleware](#)
-        - [GroupMiddleware](#)
+        - [BuilderMiddleware](#)
         - [PresenterMiddleware](#presentermiddleware)
         - [RouterMiddleware](#)
         - [TracyMiddleware](#tracymiddleware)
